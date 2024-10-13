@@ -274,6 +274,3 @@ If usage exceeds the limits within a subscription tier, the following fees will 
 
 ## License  
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## License  
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
