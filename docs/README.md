@@ -1,6 +1,8 @@
 # Dynex-Integrated AI Template  
 
-Contact Email: JRTheElectronicGuy@gmail.com  
+Contact Email: JRTheElectronicGuy@gmail.com 
+
+![Project Logo](logo.png)
 
 ---
 
