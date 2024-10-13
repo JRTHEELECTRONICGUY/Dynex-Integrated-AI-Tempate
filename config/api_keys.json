@@ -1,7 +1,46 @@
 {
-  "name": "Dynex AI Template",
-  "description": "A self-sustaining AI service with DXN-based payments.",
-  "version": "1.0.0",
-  "author": "JRTheElectronicGuy",
-  "contact_email": "JRTheElectronicGuy@gmail.com"
+  "services": {
+    "dynex": {
+      "api_key": "your-dynex-api-key",
+      "endpoint": "https://api.dynexcoin.org",
+      "description": "API key for accessing the DynexCoin platform."
+    },
+    "google_drive": {
+      "client_id": "your-google-client-id",
+      "client_secret": "your-google-client-secret",
+      "redirect_uri": "https://your-app/callback",
+      "scope": [
+        "https://www.googleapis.com/auth/drive.file",
+        "https://www.googleapis.com/auth/drive.appdata"
+      ],
+      "description": "OAuth2 credentials for accessing the user's Google Drive."
+    },
+    "custom_ai_service": {
+      "api_key": "your-custom-ai-api-key",
+      "endpoint": "https://api.custom-ai-service.com",
+      "description": "API key for accessing the custom AI processing services."
+    }
+  },
+  "usage_limits": {
+    "dynex_requests_per_hour": 1000,
+    "google_drive_storage_limit_gb": 10,
+    "retry_attempts": 3,
+    "description": "Defines API request limits and the maximum allowed Google Drive storage usage per user."
+  },
+  "pricing": {
+    "dynex_rate_per_request": 0.01,
+    "google_drive_overage_fee_per_gb": 0.05,
+    "base_subscription_fee": 10.00,
+    "additional_ai_request_fee": 0.02,
+    "description": "Pricing structure for extra requests or overage fees, ensuring profitability."
+  },
+  "support": {
+    "contact_email": "JRTheElectronicGuy@gmail.com",
+    "description": "Support contact email for handling user inquiries or issues."
+  },
+  "metadata": {
+    "last_updated": "2024-10-13",
+    "version": "1.0.0",
+    "description": "This file stores sensitive API keys, usage limits, pricing, and support configurations."
+  }
 }
