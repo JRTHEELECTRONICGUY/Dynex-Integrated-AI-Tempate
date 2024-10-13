@@ -1,7 +1,24 @@
 {
-  "name": "Dynex AI Template",
-  "description": "A self-sustaining AI service with DXN-based payments.",
-  "version": "1.0.0",
-  "author": "JRTheElectronicGuy",
-  "contact_email": "JRTheElectronicGuy@gmail.com"
+    "subscription_tiers": {
+        "basic": {
+            "price": 50,
+            "api_limit": 100,
+            "compute_cycles": 10
+        },
+        "pro": {
+            "price": 100,
+            "api_limit": 500,
+            "compute_cycles": 50
+        },
+        "enterprise": {
+            "price": 250,
+            "api_limit": 2000,
+            "compute_cycles": 200
+        }
+    },
+    "overage_fees": {
+        "api_request": 1,
+        "compute_cycle": 5,
+        "session_storage": 5
+    }
 }
