@@ -1,7 +1,7 @@
-from fastapi import FastAPI
+def save_in_memory(data):
+    print("Saving data in-memory...")
+    # Placeholder logic
 
-app = FastAPI()
-
-@app.get("/")
-async def root():
-    return {"message": "Hello, Dynex!"}
+def save_to_drive(data):
+    print("Saving data to Google Drive...")
+    # Placeholder for actual Google Drive API integration
