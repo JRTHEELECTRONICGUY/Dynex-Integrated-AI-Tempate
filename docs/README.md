@@ -2,7 +2,7 @@
 
 Contact Email: JRTheElectronicGuy@gmail.com 
 
-![Project Logo](logo.jpg)
+![Project Logo](logo.png)
 
 ---
 
