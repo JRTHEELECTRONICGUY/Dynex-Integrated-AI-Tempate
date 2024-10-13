@@ -1,6 +1,6 @@
 # Dynex-Integrated AI Template  
 
-![Project Logo](path/to/logo.png)
+![Project Logo](logo.png)
 
 ---
 
