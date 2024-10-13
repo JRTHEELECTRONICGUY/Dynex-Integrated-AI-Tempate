@@ -1,0 +1,6 @@
+flask==2.3.2                # For building the web application
+requests==2.31.0            # For making HTTP requests to the Dynex API
+google-auth==2.18.1         # For Google Drive authentication
+google-auth-oauthlib==1.0.0 # For OAuth 2.0 authorization
+google-api-python-client==2.71.0 # For accessing Google Drive API
+python-dotenv==1.0.0        # For loading environment variables from a .env file
