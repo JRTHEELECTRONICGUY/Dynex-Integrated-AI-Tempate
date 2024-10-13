@@ -1,0 +1,8 @@
+{
+  "name": "dynex-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Starting frontend...'",
+    "build": "echo 'Building frontend...'"
+  }
+}
