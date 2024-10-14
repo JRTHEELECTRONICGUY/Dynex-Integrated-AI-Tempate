@@ -251,7 +251,10 @@ Follow these steps to install, configure, and use the Dynex AI Integration Platf
 
 ## **Installation**  
 
-1. **Clone the repository:**  ```bash git clone <your-repository-url> cd <repository-folder>
+1. **Clone the repository:**  
+   ```bash
+   git clone <your-repository-url>
+   cd <repository-folder>
 
 3.	Install dependencies:
 Use the following command to install all required libraries and packages:
