@@ -1,5 +1,18 @@
 from dynex_api import process_request, compute_cycle
 from storage_manager import save_to_drive, save_in_memory
+from dotenv import load_dotenv
+
+import os
+
+# Load variables from the .env file
+load_dotenv()
+
+# Access environment variables
+dynex_api_key = os.getenv("DYNEX_API_KEY")
+wallet_address = os.getenv("DNX_WALLET_ADDRESS")
+
+print(f"Using Dynex API Key: {dynex_api_key}")
+print(f"Wallet Address: {wallet_address}")
 
 def handle_request(api_key, user_data, storage_option="memory"):
     if not validate_api_key(api_key):
