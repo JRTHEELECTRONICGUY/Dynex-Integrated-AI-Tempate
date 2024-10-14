@@ -1,0 +1,18 @@
+# Dynex API Configuration
+DYNEX_API_KEY=your_dynex_api_key_here
+
+# Payment Wallet Address
+DNX_WALLET_ADDRESS=your_dynex_wallet_address_here
+
+# Database Credentials (if needed)
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database_name_here
+DB_USER=your_database_user_here
+DB_PASSWORD=your_database_password_here
+
+# Flask or Django Secret Key
+SECRET_KEY=your_secret_key_here
+
+# Debug Settings
+DEBUG=True  # Set to False in production
