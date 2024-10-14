@@ -272,22 +272,22 @@ DNX_WALLET_ADDRESS=your_wallet_address
 
 ## How to Use the Platform
 
-	1.	Initialize the Application:
+1.	Initialize the Application:
 Run the following command to start the application:
 
 python main.py
 
-	2.	Access the Web Interface:
+2.	Access the Web Interface:
 	•	Open your browser and go to http://localhost:5000.
 	•	You will see a dashboard showing available compute resources, task status, and DNX usage.
-	3.	Submit an AI Task:
+3.	Submit an AI Task:
 	•	Navigate to the AI Tasks tab.
 	•	Choose from pre-built AI models (e.g., image recognition, NLP analysis) or upload a custom task.
 	•	Click Submit to start the process.
-	4.	View Task Status:
+4.	View Task Status:
 	•	Monitor your tasks in real-time on the dashboard.
 	•	The platform dynamically replicates code across nodes to ensure tasks are completed efficiently.
-	5.	Manage Payments:
+5.	Manage Payments:
 	•	All task executions are tracked and billed in DNX.
 	•	Visit the Payments tab to view your usage and payment history.
 	•	If using the marketplace, payments are handled automatically without exposing wallet information.
