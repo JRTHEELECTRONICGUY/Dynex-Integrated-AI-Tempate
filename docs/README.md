@@ -5,7 +5,7 @@
 ---
 
 ## Overview  
-This project offers an AI-powered platform utilizing Dynex’s compute infrastructure, enabling advanced computations, seamless storage management, and a subscription-based model. Payments are exclusively in DXN tokens, maintaining a decentralized and transparent financial structure.  
+The Dynex AI Integration Platform revolutionizes AI-powered workflows by harnessing neuromorphic computing through the Dynex decentralized network. With dynamic task replication and scalable computation, the platform offers unparalleled efficiency for developers, businesses, and researchers. Whether training complex AI models, conducting real-time predictions, or running intensive data analysis, the platform ensures fast, cost-effective performance while managing usage seamlessly through Dynex Coin (DNX) payments.  
 
 ---
 
