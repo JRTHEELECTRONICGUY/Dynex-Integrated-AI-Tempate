@@ -1,0 +1,46 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore environment variables and sensitive files
+.env
+
+# Ignore data and uploads directories (except README.md files)
+data/*
+!data/README.md
+
+uploads/*
+!uploads/README.md
+
+# Ignore log files and debug output
+*.log
+
+# Ignore cache and temporary files
+*.tmp
+*.cache
+*.bak
+.DS_Store
+
+# Ignore operating system-specific files
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore package management files (optional)
+node_modules/
+yarn.lock
+package-lock.json
+
+# Ignore results from testing and coverage tools
+coverage/
+*.coverage
+test-output/
+.junit-reports/
+
+# Ignore built distributions and temporary build artifacts
+dist/
+build/
