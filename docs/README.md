@@ -252,17 +252,15 @@ Follow these steps to install, configure, and use the Dynex AI Integration Platf
 ## **Installation**  
 
 1. **Clone the repository:**  
-   ```bash
-   git clone <your-repository-url>
-   cd <repository-folder>
+   ```bash git clone <your-repository-url> cd <repository-folder>
 
-	2.	Install dependencies:
+2.	Install dependencies:
 Use the following command to install all required libraries and packages:
 
 pip install -r requirements.txt
 
 
-	3.	Configure your API keys and environment settings:
+3.	Configure your API keys and environment settings:
 Create a .env file in the project root to store your environment variables:
 
 DYNEX_API_KEY=your_dynex_api_key
@@ -324,20 +322,20 @@ Examples
 ---
 Security Best Practices
 
-	•	Do not hardcode wallet addresses into the application. Use .env files to protect sensitive data.
-	•	Keep your code private until officially released on the Dynex marketplace to prevent unauthorized access.
-	•	Monitor your DNX balance regularly to avoid service interruptions.
+•	Do not hardcode wallet addresses into the application. Use .env files to protect sensitive data.
+•	Keep your code private until officially released on the Dynex marketplace to prevent unauthorized access.
+•	Monitor your DNX balance regularly to avoid service interruptions.
 
 Known Issues & Troubleshooting
 
-	•	Installation Error: If pip install fails, ensure Python and pip are correctly installed and updated.
-	•	Task Execution Delays: Check your network connection and available compute nodes.
-	•	Payment Issues: Verify your wallet address and API key in the .env file.
+•	Installation Error: If pip install fails, ensure Python and pip are correctly installed and updated.
+•	Task Execution Delays: Check your network connection and available compute nodes.
+•	Payment Issues: Verify your wallet address and API key in the .env file.
 
 Support & Contribution
 
-	•	If you encounter any issues, open an issue on GitHub or contact us through the Dynex marketplace.
-	•	Contributions are welcome! Please submit pull requests or suggest improvements via GitHub.
+•	If you encounter any issues, open an issue on GitHub or contact us through the Dynex marketplace.
+•	Contributions are welcome! Please submit pull requests or suggest improvements via GitHub.
 
 ---
 
