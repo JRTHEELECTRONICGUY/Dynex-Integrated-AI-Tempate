@@ -237,24 +237,82 @@ If usage exceeds the limits within a subscription tier, the following fees will 
 
 ---
 
-## Deployment Instructions  
+## **Getting Started**  
 
-1. Prepare the Code Base:  
-   - Ensure all dependencies are installed.  
-   - Set up your Dynex API keys and enable DXN-only payment processing.  
+Follow these steps to install, configure, and use the Dynex AI Integration Platform.  
 
-2. Test the Platform Locally:  
-   - Verify the subscription management system is working correctly.  
-   - Simulate overages to ensure additional fees apply as expected.  
+### **Prerequisites**  
+- Python 3.x installed  
+- `pip` (Python package installer) installed  
+- Dynex Coin (DNX) wallet with funds for task execution  
+- Access to the Dynex marketplace (optional for premium services)
 
-3. Upload to GitHub:  
-   - Create a new public repository on GitHub.  
-   - Include all source code, dependencies, and documentation.  
+---
 
-4. Submit to Dynex Marketplace:  
-   - Log into your Dynex Marketplace account.  
-   - Provide the GitHub repository link for review and testing.  
-   - Confirm the subscription tiers and additional charges align with Dynex policies.  
+## **Installation**  
+
+1. **Clone the repository:**  
+   ```bash
+   git clone <your-repository-url>
+   cd <repository-folder>
+
+	2.	Install dependencies:
+Use the following command to install all required libraries and packages:
+
+pip install -r requirements.txt
+
+
+	3.	Configure your API keys and environment settings:
+Create a .env file in the project root to store your environment variables:
+
+DYNEX_API_KEY=your_dynex_api_key
+DNX_WALLET_ADDRESS=your_wallet_address
+
+---
+
+## How to Use the Platform
+
+	1.	Initialize the Application:
+Run the following command to start the application:
+
+python main.py
+
+	2.	Access the Web Interface:
+	•	Open your browser and go to http://localhost:5000.
+	•	You will see a dashboard showing available compute resources, task status, and DNX usage.
+	3.	Submit an AI Task:
+	•	Navigate to the AI Tasks tab.
+	•	Choose from pre-built AI models (e.g., image recognition, NLP analysis) or upload a custom task.
+	•	Click Submit to start the process.
+	4.	View Task Status:
+	•	Monitor your tasks in real-time on the dashboard.
+	•	The platform dynamically replicates code across nodes to ensure tasks are completed efficiently.
+	5.	Manage Payments:
+	•	All task executions are tracked and billed in DNX.
+	•	Visit the Payments tab to view your usage and payment history.
+	•	If using the marketplace, payments are handled automatically without exposing wallet information.
+
+Examples
+
+1. AI Model Training Example
+
+	1.	Upload a large dataset for image classification.
+	2.	The platform splits the workload across Dynex nodes.
+	3.	Monitor the progress on the dashboard, with adaptive replication keeping tasks efficient.
+	4.	Receive the trained model and download it via the Results tab.
+
+2. Real-Time Sentiment Analysis
+
+	1.	Use the NLP endpoint for real-time sentiment analysis on customer feedback.
+	2.	Task replicates dynamically to handle multiple simultaneous requests.
+	3.	Results are displayed instantly in the web UI, with usage tracked in DNX.
+
+3. Predictive Maintenance
+
+	1.	Upload sensor data from IoT devices to predict potential equipment failures.
+	2.	The platform runs AI-based analysis and provides predictions.
+	3.	Reports are available in the Results tab with automated DNX billing.
+
 
 ---
 
@@ -262,6 +320,24 @@ If usage exceeds the limits within a subscription tier, the following fees will 
 - /src: Core logic and self-replicating code  
 - /ui: User interface files- /config: API keys, pricing structure, and dependencies  
 - /docs: Full documentation for the project  
+
+---
+Security Best Practices
+
+	•	Do not hardcode wallet addresses into the application. Use .env files to protect sensitive data.
+	•	Keep your code private until officially released on the Dynex marketplace to prevent unauthorized access.
+	•	Monitor your DNX balance regularly to avoid service interruptions.
+
+Known Issues & Troubleshooting
+
+	•	Installation Error: If pip install fails, ensure Python and pip are correctly installed and updated.
+	•	Task Execution Delays: Check your network connection and available compute nodes.
+	•	Payment Issues: Verify your wallet address and API key in the .env file.
+
+Support & Contribution
+
+	•	If you encounter any issues, open an issue on GitHub or contact us through the Dynex marketplace.
+	•	Contributions are welcome! Please submit pull requests or suggest improvements via GitHub.
 
 ---
 
