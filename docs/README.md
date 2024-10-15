@@ -270,7 +270,7 @@ DNX_WALLET_ADDRESS=your_wallet_address
 
 ---
 
-**Environment Configuration:** (.env Setup)
+# .env File Configuration (.env Setup)
 
 To run the application properly, you need to configure a .env file with essential environment variables. Below is a step-by-step guide to help you set up the file.
 
@@ -278,8 +278,6 @@ Step 1: Create the .env File
 
  1. In the root directory of your project, create a new file named .env.
  2. Open the file and add the following key-value pairs based on your specific configuration.
-
-# .env File Configuration
 
 # Application Config
 APP_NAME=YourAppNameHere
