@@ -270,6 +270,86 @@ DNX_WALLET_ADDRESS=your_wallet_address
 
 ---
 
+**Environment Configuration:** (.env Setup)
+
+To run the application properly, you need to configure a .env file with essential environment variables. Below is a step-by-step guide to help you set up the file.
+
+Step 1: Create the .env File
+
+ 1. In the root directory of your project, create a new file named .env.
+ 2. Open the file and add the following key-value pairs based on your specific configuration.
+
+# .env File Configuration
+
+# Application Config
+APP_NAME=YourAppNameHere
+APP_ENV=development # Change to 'production' for deployment
+APP_PORT=5000 # Port the app runs on
+
+# Database Configuration
+DB_HOST=localhost
+DB_PORT=5432 # Default port for PostgreSQL
+DB_NAME=your_database_name
+DB_USER=your_database_user
+DB_PASS=your_database_password
+
+# Dynex Payment Configuration
+DNX_API_KEY=your_dynex_api_key
+DNX_SECRET_KEY=your_dynex_secret_key
+DNX_WALLET_ADDRESS=your_dynex_wallet_address
+
+# Security and Authentication
+JWT_SECRET=your_jwt_secret_key # For token-based authentication
+ENCRYPTION_KEY=your_encryption_key_here
+
+# Logging and Debugging
+LOG_LEVEL=debug # Change to 'info' or 'error' in production
+
+# Optional Email Setup (if applicable)
+EMAIL_HOST=smtp.your-email-provider.com
+EMAIL_PORT=587
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+
+Step 2: Customize the Variables
+
+ • Replace your_database_name, your_database_user, and your_database_password with your actual database credentials.
+ • Add your Dynex API Key, Secret Key, and Wallet Address to ensure the payment system works properly.
+ • Use a strong JWT_SECRET and ENCRYPTION_KEY to secure your application.
+ • Configure any email settings if your app requires sending emails.
+
+Step 3: Use the .env File in Your Code
+
+Make sure your code reads these variables properly using a library like dotenv in Python or Node.js. Example:
+
+Python Example (with dotenv):
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+db_host = os.getenv('DB_HOST')
+jwt_secret = os.getenv('JWT_SECRET')
+
+Node.js Example (with dotenv):
+
+require('dotenv').config();
+
+const dbHost = process.env.DB_HOST;
+const jwtSecret = process.env.JWT_SECRET;
+
+Step 4: Ensure Security
+
+ • Do not commit your .env file to version control (GitHub) by adding it to .gitignore.
+ • Only share environment variables with trusted team members or use deployment services with environment variable management.
+
+Troubleshooting Tips
+
+ 1. If the app doesn’t start, ensure all required variables are correctly set in the .env file.
+ 2. Double-check that the .env file is in the root directory of your project.
+ 3. If you’re deploying to production, ensure the environment is set to APP_ENV=production for optimal performance
+
 ## How to Use the Platform
 
 1.	Initialize the Application:
