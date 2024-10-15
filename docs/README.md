@@ -402,8 +402,6 @@ Examples
 ---
 Security Best Practices
 
-•	Do not hardcode wallet addresses into the application. Use .env files to protect sensitive data.
-•	Keep your code private until officially released on the Dynex marketplace to prevent unauthorized access.
 •	Monitor your DNX balance regularly to avoid service interruptions.
 
 Known Issues & Troubleshooting
