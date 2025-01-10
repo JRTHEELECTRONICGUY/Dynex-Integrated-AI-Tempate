@@ -1,0 +1,16 @@
+{
+    "ethics_rules": [
+        {
+            "type": "prohibit",
+            "field": "action_type",
+            "value": "malicious",
+            "description": "Prohibits malicious actions."
+        },
+        {
+            "type": "require",
+            "field": "approval_status",
+            "value": "approved",
+            "description": "Requires actions to have prior approval."
+        }
+    ]
+}
