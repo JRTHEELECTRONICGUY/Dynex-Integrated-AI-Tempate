@@ -20,5 +20,21 @@
         "api_request": 1,
         "compute_cycle": 5,
         "session_storage": 5
+    },
+    "ethics_core": {
+        "rules": {
+            "prohibit_malicious_actions": true,
+            "require_approval_for_sensitive_operations": true,
+            "allow_self_replication": false
+        },
+        "logging": {
+            "enable_blockchain_audit": true,
+            "log_level": "INFO",
+            "log_retention_days": 30
+        },
+        "safeguards": {
+            "max_replication_depth": 3,
+            "max_parallel_tasks": 5
+        }
     }
 }
