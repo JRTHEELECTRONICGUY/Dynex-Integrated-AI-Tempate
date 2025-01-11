@@ -286,8 +286,25 @@ pip install -r requirements.txt
 3.	Configure your API keys and environment settings:
 Create a .env file in the project root to store your environment variables:
 
-DYNEX_API_KEY=your_dynex_api_key
-DNX_WALLET_ADDRESS=your_wallet_address
+# Application Config  
+APP_NAME=YourAppName  
+APP_ENV=development  
+APP_PORT=5000  
+
+# Dynex Payment Configuration  
+DNX_API_KEY=your_dynex_api_key  
+DNX_WALLET_ADDRESS=your_wallet_address  
+
+# Security  
+JWT_SECRET=your_jwt_secret  
+ENCRYPTION_KEY=your_encryption_key  
+
+# Ethics Core Settings  
+ENABLE_ETHICS_CORE=True  
+
+# Optional Google Drive Integration  
+GOOGLE_DRIVE_CLIENT_ID=your_google_client_id  
+GOOGLE_DRIVE_CLIENT_SECRET=your_google_client_secret  
 
 ---
 
