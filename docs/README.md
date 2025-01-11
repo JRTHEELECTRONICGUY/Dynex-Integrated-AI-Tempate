@@ -20,7 +20,28 @@ The Dynex AI Integration Platform revolutionizes AI-powered workflows by harness
 
 - Enhanced Error Handling:  
   - Retry mechanisms for failed requests.  
-  - Clear failure messages for various scenarios.  
+  - Clear failure messages for various scenarios.
+    
+- **Ethics Core:** Ensures tasks adhere to ethical standards for AI usage.
+    
+- **Decentralized Compute:** Leverages the Dynex Network for high efficiency.
+  
+---
+
+## Ethics Core  
+
+The **Ethics Core** ensures that all AI tasks adhere to responsible and ethical standards. It is designed to safeguard user privacy, promote transparency, and prevent misuse of AI capabilities.  
+
+### Core Principles:  
+1. **Transparency:** Users are informed of how their data is processed.  
+2. **Privacy:** All data is encrypted, and sensitive information is never stored without consent.  
+3. **Fairness:** AI models are evaluated to prevent biases in outputs.  
+4. **Sustainability:** Tasks are optimized to reduce unnecessary compute cycles, minimizing environmental impact.  
+
+### How It Works:  
+- Each submitted task is analyzed against predefined ethical guidelines.  
+- Tasks flagged for potential violations (e.g., biased models or unauthorized data usage) are paused, and users are notified with actionable steps.  
+- A detailed compliance report is available for all tasks.  
 
 ---
 
